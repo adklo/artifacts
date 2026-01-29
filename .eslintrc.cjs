@@ -1,6 +1,17 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 2022,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  env: {
+    browser: true,
+    es2022: true
+  },
   rules: {
     semi: "error",
-    "prefer-const": "error",
-  },
+    "prefer-const": "error"
+  }
 };
